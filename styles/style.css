@@ -1,5 +1,5 @@
 .header {
-  padding: 93px 24px 96px;
+  margin: 93px 24px 96px;
   display: grid;
   grid-template-columns: 1fr max-content 1fr;
   align-items: center;
@@ -54,7 +54,6 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 100%;
 }
 
 .overlay {
@@ -230,7 +229,7 @@
 }
 
 .about {
-  padding: 184px 24px 0;
+  margin: 184px 24px 0;
 }
 
 .about__column {
@@ -284,7 +283,7 @@
 }
 
 .footer {
-  padding: 182px 50px 88px;
+  margin: 182px 50px 88px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
