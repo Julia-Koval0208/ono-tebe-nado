@@ -6,15 +6,12 @@
 }
 
 .header__menu {
-  width: 392px;
-  height: 22px;
   margin-left: 26px;
 }
 
 .header__links-list {
   display: flex;
-  justify-content: space-between;
-  gap: 13px;
+  gap: 34px;
   list-style: circle;
 }
 
@@ -36,7 +33,6 @@
 .header__address {
   width: 100%;
   max-width: 240px;
-  height: 100px;
   justify-self: end;
   font-size: 18px;
   line-height: 24px;
@@ -122,6 +118,7 @@
   color: #ffffff;
   background-color: transparent;
   padding: 12px 32px 11px 31px;
+  font-family: "Raleway";
 }
 
 .lots {
@@ -143,11 +140,12 @@
   list-style: none;
   display: flex;
   gap: 25px;
+  flex-wrap: wrap;
 }
 
 .lots__card-list-item {
-  max-height: 653px;
-  width: 100%;
+  min-height: 563px;
+  width: 334px;
   flex-grow: 1;
 }
 
@@ -164,6 +162,8 @@
   flex-direction: column;
   justify-content: space-between;
   padding: 51px 40px 48px 40px;
+  min-width: 334px;
+  min-height: 563px;
 }
 
 .card_type_film {
@@ -171,8 +171,6 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  min-width: 334px;
-  min-height: 563px;
 }
 
 .card_type_book {
@@ -180,8 +178,6 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  min-width: 334px;
-  min-height: 563px;
 }
 
 .card_type_picture {
@@ -189,8 +185,6 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  min-width: 334px;
-  min-height: 563px;
 }
 
 .card__title {
