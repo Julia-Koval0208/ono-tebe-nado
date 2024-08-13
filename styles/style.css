@@ -1,5 +1,5 @@
 .header {
-  margin: 93px 24px 96px;
+  margin: 94px 24px 96px;
   display: grid;
   grid-template-columns: 1fr max-content 1fr;
   align-items: center;
@@ -29,7 +29,7 @@
 }
 
 .header__logo-image {
-  width: 129px;
+  width: 134px;
   height: 104px;
 }
 
@@ -125,11 +125,11 @@
 }
 
 .lots {
-  margin: 181px 24px 0px 24px;
+  margin: 178px 24px 0px 24px;
 }
 
 .lots__heading {
-  padding-left: 40px;
+  margin-left: 40px;
   font-weight: 700;
   font-size: 40px;
   line-height: 47px;
@@ -138,8 +138,8 @@
 }
 
 .lots__card-list {
-  padding-top: 24px;
-  padding-bottom: 31px;
+  margin-top: 26px;
+  margin-bottom: 31px;
   list-style: none;
   display: flex;
   gap: 25px;
